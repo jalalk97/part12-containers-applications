@@ -1,0 +1,6 @@
+apt-get update
+apt-get install -y neovim
+neovim /usr/src/app/index.js
+console.log("Hello World");
+:wq
+exit

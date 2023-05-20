@@ -1,0 +1,6 @@
+docker start -i busy_neumann
+apt-get install -y curl
+bash <(curl -sL https://deb.nodesource.com/setup_16.x)
+apt-get install -y nodejs
+node /usr/src/app/index.js
+exit
